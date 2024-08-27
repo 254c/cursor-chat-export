@@ -32,7 +32,7 @@ Both the `discover` and `export` commands will work with this path by default, b
 
 ---
 
-### Discover Chats
+### 🔎 Discover Chats
 ```sh
 # Help on usage
 ./chat.py discover --help
@@ -49,7 +49,7 @@ Both the `discover` and `export` commands will work with this path by default, b
 
 ---
 
-### Export Chats
+### 📤 Export Chats
 See `./chat.py export --help` for general help. Examples:
 ```sh
 # Help on usage
@@ -67,3 +67,4 @@ See `./chat.py export --help` for general help. Examples:
 # Export all chats of a specifc workspace
 ./chat.py export --output-dir "/path/to/output" "/path/to/workspaces/workspace-dir/state.vscdb"
 ```
+== to be continued ==
