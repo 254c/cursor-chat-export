@@ -1,4 +1,4 @@
-# Cursor Chat Export
+# ⚡ Cursor Chat Export
 
 This project provides a command-line interface (CLI) tool to discover and export AI chat data from [Cursor](https://cursor.sh). The tool is implemented in `chat.py` and leverages utility classes for querying the database, formatting the chat data, and saving it to files.
 
@@ -6,12 +6,12 @@ Cursor's chat history is stored in `sqlite3` databases using `state.vscdb` files
 
 Also see [this](https://forum.cursor.com/t/guide-5-steps-exporting-chats-prompts-from-cursor/2825) forum post on this topic.
 
-## Features
+## ✨ Features
 
 - **Discover Chats**: Discover all chats from all workspaces and print a few lines of dialogue so one can identify which is the workspace (or chat) one is searching for. It's also possible to filter by text.
 - **Export Chats**: Export chats for the most recent (or a specific) workspace to Markdown files or print it to the command line.
 
-## Installation
+## 🚀 Installation
 
 1. Clone the repository:
     ```sh
@@ -24,7 +24,7 @@ Also see [this](https://forum.cursor.com/t/guide-5-steps-exporting-chats-prompts
     pip install -r requirements.txt
     ```
 
-## Usage
+##  💼 Usage
 
 First, find, where the `state.vscdb` files are located on your computer. Confirm that corresponding to your system, the right path is set in the [config.yml](./config.yml) file. Update it if not set correctly.
 
